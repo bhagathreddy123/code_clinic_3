@@ -30,7 +30,7 @@ class Board
 	end
 
 	def ending_column
-		columns – 1
+		columns - 1
 	end
 	def place_queen(column=0, row=0)
 		queen = Queen.new
